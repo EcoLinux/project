@@ -46,7 +46,7 @@ public  class Connect_Desconnect{
        public static void  desconnected(){
            try {
                connection.close();
-               // JOptionPane.showMessageDialog(null,"sucessful desconnect Data Base");
+               JOptionPane.showMessageDialog(null,"sucessful desconnect Data Base");
            } catch (SQLException ex) {
                JOptionPane.showMessageDialog(null,"Error to desconnect Data Base" + ex);
            }

@@ -34,7 +34,7 @@ public  class Connect_Desconnect{
       try{
       Class.forName(driver);
       connection = DriverManager.getConnection(url+db,"root","");
-      //JOptionPane.showMessageDialog(null, "Connected sucessful");
+      JOptionPane.showMessageDialog(null, "Connected sucessful");
       } catch (ClassNotFoundException | SQLException e){
           JOptionPane.showMessageDialog(null, "ERROR in connect with Data Base " + e);
       }
